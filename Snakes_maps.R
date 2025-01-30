@@ -6,9 +6,9 @@ library(tidyverse)
 library(sf)  # Modern spatial data handling
 
 # File paths
-snake_data_path <- "D:/GIS/Snakes/App/Snake database_cleaned_Sept 2024.csv"
-grid_shapefile <- "D:/GIS/Snakes/App/Grid_8thdegree_sz.shp"
-boundary_shapefile <- "D:/GIS/Snakes/App/Sd_bound.shp"
+snake_data_path <- "Snake database_cleaned_Sept 2024.csv"
+grid_shapefile <- "Grid_8thdegree_sz.shp"
+boundary_shapefile <- "Sd_bound.shp"
 
 # Load and process snake occurrence data
 if (file.exists(snake_data_path)) {
